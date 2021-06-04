@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductiveDDD.Tests", "Prod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Templates", "Templates\Templates.csproj", "{D0B01EB6-C68F-4AB6-852E-3FC02BB44C85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductiveDDD.ItemTemplate", "ProductiveDDD.ItemTemplate\ProductiveDDD.ItemTemplate.csproj", "{9E8CE394-2526-4E92-A4AD-2144AF6F37A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D0B01EB6-C68F-4AB6-852E-3FC02BB44C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B01EB6-C68F-4AB6-852E-3FC02BB44C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B01EB6-C68F-4AB6-852E-3FC02BB44C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8CE394-2526-4E92-A4AD-2144AF6F37A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8CE394-2526-4E92-A4AD-2144AF6F37A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8CE394-2526-4E92-A4AD-2144AF6F37A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8CE394-2526-4E92-A4AD-2144AF6F37A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
