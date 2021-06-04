@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ValueObject</Title>
+      <Author>
+      </Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>pfval</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>ValueObjectName</ID>
+          <ToolTip>The name of the value object class</ToolTip>
+          <Default>ValueObjectName</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>
+            ProductiveDDD
+          </Namespace>
+        </Import>
+        <Import>
+          <Namespace>
+            System.Collections.Generic
+          </Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp" Delimiter="$"><![CDATA[    internal class $ValueObjectName$ : ValueObject
+    {
+        //ADD A NO EMPTY CONTRUCTOR. 
+        //Value objects must be immutable, properties must be read only
+
+        protected override IEnumerable<object> GetEqualityComponents()
+        {
+            //Add yield return statements for the different properties that matters for equality comparison
+            throw new System.NotImplementedException();
+        }
+    }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
