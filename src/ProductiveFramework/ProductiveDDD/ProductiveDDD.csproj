@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>G. CICA</Authors>
+    <Company />
+    <Product>Productive Framework</Product>
+    <Description>Core class for using DDD with Productive Framework</Description>
   </PropertyGroup>
 
   <ItemGroup>

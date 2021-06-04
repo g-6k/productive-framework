@@ -4,6 +4,12 @@
     <TargetFramework>net5.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <Authors>G CICA</Authors>
+
+    <Product>Productive Framewok</Product>
+
+    <Description>Unit test used to validate Productive DDD</Description>
   </PropertyGroup>
 
   <ItemGroup>
